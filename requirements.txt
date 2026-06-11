@@ -1,3 +1,10 @@
+# Python 3.10–3.13 khuyến nghị. Python 3.14 dùng nemoguardrails 0.17.x
 google-genai>=1.0.0
 google-adk>=0.3.0
-nemoguardrails>=0.10.0
+nemoguardrails>=0.18.0; python_version < "3.14"
+nemoguardrails>=0.17.0,<0.18.0; python_version >= "3.14"
+langchain>=0.2.14
+langchain-community>=0.2.5
+langchain-google-genai>=2.0.0
+jupyter>=1.0.0
+ipykernel>=6.0.0
